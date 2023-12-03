@@ -7,17 +7,17 @@ class OnePersonAPIView(APIView):
     def get(self, request, format=None):
         data = {
             "id": 1,
-            "name": "John Doe",
-            "age": 25,
-            "city": "Sample City"
+            "name": "integerji",
+            "age": 28,
+            "city": "Gwanak-gu"
         }
         return Response(data)
     
     def post(self, request, format=None):
         data = {
-            "id": 1,
-            "name": "John Doe",
-            "age": 25,
-            "city": "Sample City"
+            "id": 2,
+            "name": "nayoung0",
+            "age": 29,
+            "city": "Gwanak-gu"
         }
         return Response(data)
