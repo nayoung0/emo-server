@@ -12,3 +12,12 @@ class OnePersonAPIView(APIView):
             "city": "Sample City"
         }
         return Response(data)
+    
+    def post(self, request, format=None):
+        data = {
+            "id": 1,
+            "name": "John Doe",
+            "age": 25,
+            "city": "Sample City"
+        }
+        return Response(data)
